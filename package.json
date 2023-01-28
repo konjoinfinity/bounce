@@ -7,15 +7,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "box2dweb": "^2.1.0-b",
     "expo": "~47.0.12",
     "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
+    "gl-react": "^5.2.0",
+    "gl-react-native": "^5.2.1",
+    "react": "18.2.0",
     "react-dom": "18.1.0",
-    "react-native": "0.70.5",
+    "react-native": "0.71.1",
     "react-native-web": "~0.18.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@types/gl-react": "^3.15.4",
+    "@types/gl-react-native": "^3.15.4",
     "@types/react": "~18.0.14",
     "@types/react-native": "~0.70.6",
     "typescript": "^4.6.3"
