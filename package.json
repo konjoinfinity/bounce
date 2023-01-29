@@ -9,12 +9,15 @@
   "dependencies": {
     "box2dweb": "^2.1.0-b",
     "expo": "~47.0.12",
+    "expo-haptics": "^12.0.1",
+    "expo-splash-screen": "^0.17.5",
     "expo-status-bar": "~1.4.2",
     "gl-react": "^5.2.0",
     "gl-react-native": "^5.2.1",
     "react": "18.2.0",
     "react-dom": "18.1.0",
     "react-native": "0.71.1",
+    "react-native-bouncing-preloader": "^1.0.1",
     "react-native-web": "~0.18.9"
   },
   "devDependencies": {
