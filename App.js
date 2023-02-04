@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {View, StyleSheet, TouchableWithoutFeedback, Animated, Dimensions} from 'react-native';
-import BouncingPreloader from 'react-native-bouncing-preloader';
+import BouncingPreloader from './Bounce';
 import * as SplashScreen from 'expo-splash-screen';
 
 SplashScreen.hideAsync()
@@ -10,6 +10,7 @@ export default class Bounce extends Component {
   render(){
     return (
       <View style={{display: "flex", alignItems: "center"}}> 
+    
 <BouncingPreloader
   icons={[
     require('./assets/apple.png'),
